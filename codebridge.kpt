@@ -1,0 +1,541 @@
+<panotour version="2.5.4.400">
+ <project autorotationDelay="1" VRdesktop="right" VRIconsColor="#ffffff" VRIconsAlpha="255" autorotationSpeed="5" startWithLittlePlanet="false" startZoomOnCursor="false" startControlsHidden="false" hideControlsDuringIntroduction="true" VRkeepview="right" startVolume="100" startChangeCursor="true" objectId="0" startSoundsON="true" workspaceWidth="1620" autotourMode="autotourModeFull" startTouchType="drag" workspaceHeight="645" VRcursordisplay="always" startMouseType="moveto" workspaceOriginX="0" autorotationDirection="right" workspaceScale="-1" workspaceOriginY="0" VRCursorColor="#ffffff" relativePath="True" VRCursorAlpha="255">
+  <description foregroundAlpha="255" backgroundAlpha="255" name="codebridge" foregroundColor="#000000" backgroundColor="#ffffff"/>
+  <group x="718" y="10" nbColumn="-1" thumbMode="False" explicit="False" objectId="20">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 20" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="-135" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="12" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="outside_12" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="outside" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010032_str.JPG"/>
+    <spot type="point" x="98.4359" y="33.845" objectId="35" relativeX="0.689573" relativeY="0.517933">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010033" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="13" sourceId="12">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="171" y="90" nbColumn="-1" thumbMode="False" explicit="False" objectId="14">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 14" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="-68" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="6" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="code4sa_6" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="code4sa" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010026_str.JPG"/>
+    <spot type="point" x="19.111" y="31.7521" objectId="22" relativeX="0.16074" relativeY="0.490029">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010028" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="8" sourceId="6">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="164" y="200" nbColumn="-1" thumbMode="False" explicit="False" objectId="15">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 15" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="-45" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="7" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="ray_7" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="ray" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010027_str.JPG"/>
+    <spot type="point" x="4.38834" y="29.8291" objectId="24" relativeX="0.0625889" relativeY="0.464387">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010028" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="8" sourceId="7">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="388" y="204" nbColumn="-1" thumbMode="False" explicit="False" objectId="16">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 16" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="67" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="8" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="hallway_8" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="hallway" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010028_str.JPG"/>
+    <spot type="point" x="49.1963" y="22.1368" objectId="23" relativeX="0.361309" relativeY="0.361823">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="9.45" description="Go to R0010027" contentTemplate="" startYaw="60.3" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="7" sourceId="8">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="66.9061" y="27.906" objectId="26" relativeX="0.479374" relativeY="0.438746">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="-2.7" description="Go to R0010026" contentTemplate="" startYaw="-170.55" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="6" sourceId="8">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="-4.78663" y="28.9744" objectId="27" relativeX="0.00142248" relativeY="0.452991">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="-2.7" description="Go to R0010030" contentTemplate="" startYaw="-84.15" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="10" sourceId="8">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="-1.58606" y="29.4017" objectId="28" relativeX="0.0227596" relativeY="0.458689">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="19.8" description="Go to R0010029" contentTemplate="" startYaw="148.5" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="9" sourceId="8">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="70.1111" y="30.8309" objectId="36" relativeX="0.500741" relativeY="0.477745">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010033" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="13" sourceId="8">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="160" y="303" nbColumn="-1" thumbMode="False" explicit="False" objectId="17">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 17" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="45" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="9" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="skype_room_9" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="skype room" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010029_str.JPG"/>
+    <spot type="point" x="119.395" y="33.0342" objectId="39" relativeX="0.829303" relativeY="0.507123">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to hallway" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="8" sourceId="9">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="494" y="323" nbColumn="-1" thumbMode="False" explicit="False" objectId="18">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 18" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="90" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="10" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="back_staircase_10" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="back staircase" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010030_str.JPG"/>
+    <spot type="point" x="27.0057" y="21.7094" objectId="29" relativeX="0.213371" relativeY="0.356125">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010029" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="9" sourceId="10">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="41.5149" y="36.8803" objectId="30" relativeX="0.3101" relativeY="0.558405">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010031" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="11" sourceId="10">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="40.0213" y="20.2137" objectId="31" relativeX="0.300142" relativeY="0.336182">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010028" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="8" sourceId="10">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="589" y="202" nbColumn="-1" thumbMode="False" explicit="False" objectId="19">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 19" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="67" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="11" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="downstairs_11" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="downstairs" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010031_str.JPG"/>
+    <spot type="point" x="59.2248" y="31.5385" objectId="37" relativeX="0.428165" relativeY="0.487179">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="34.65" description="Go to front staircase" contentTemplate="" startYaw="-166.5" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="13" sourceId="11">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="143.506" y="31.5385" objectId="38" relativeX="0.990043" relativeY="0.487179">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="2.7" description="Go to back staircase" contentTemplate="" startYaw="-80.1" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="10" sourceId="11">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <group x="492" y="44" nbColumn="-1" thumbMode="False" explicit="False" objectId="21">
+   <description foregroundAlpha="255" backgroundAlpha="255" name="Group 21" foregroundColor="#ffffff" backgroundColor="#808080"/>
+   <pano maxPixelZoom="true" maxFov="90" heading="45" startYaw="0" phi="0" planar="false" type="0" startFov="90" hFov="360" objectId="13" vFov="180" startPitch="0" dontGenerateTiles="false" minFov="1" lowres="true" tourDirectory="front_staircase_13" x="-1" y="-1">
+    <description foregroundAlpha="255" backgroundAlpha="255" name="front staircase" foregroundColor="#000000" backgroundColor="#ffffff" filename="photos/R0010033_str.JPG"/>
+    <spot type="point" x="69.8933" y="33.0342" objectId="32" relativeX="0.499289" relativeY="0.507123">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="True" id="object" startPitch="15.75" description="Go to R0010032" contentTemplate="" startYaw="70.65" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="12" sourceId="13">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="-2.22617" y="17.4359" objectId="33" relativeX="0.0184922" relativeY="0.299145">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010028" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="8" sourceId="13">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+    <spot type="point" x="62.8521" y="33.4615" objectId="34" relativeX="0.452347" relativeY="0.512821">
+     <description/>
+     <presetAction id="user_defaultpoint0">
+      <action type="Object" startFov="90" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Go to R0010031" contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="11" sourceId="13">
+       <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+        <item name="None" value="none"/>
+        <item name="Look to the spot" value="looktospot"/>
+        <item name="Zoom in on the spot" value="zoominonspot"/>
+        <item name="Zoom out" value="zoomoutonpanorama"/>
+       </select>
+       <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+        <item name="None" value="none"/>
+        <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+        <item name="Load custom view" value="loadspotview"/>
+        <item name="Load panorama view" value="loadpanoview"/>
+        <item name="Panorama view to custom view" value="panoviewtospotview"/>
+       </select>
+      </action>
+     </presetAction>
+    </spot>
+   </pano>
+  </group>
+  <build encryptConfig="false" useMultiResolution="true" useMobileScale="true" baseDir="/home/code4sa/github/code4sa/360/photos" mobilesTour="true" iBookTour="false" lang="en" exportComments="true" htmlTemplate="fullpage.html" desktopTour="true" filename="codebridge" html5Tour="true" displayErrors="true" flashTour="false" imgJpegQuality="9"/>
+  <plugins>
+   <plugin name="codebridge" id="title">
+    <param uiPreview="false" customize="false" name="tr:Position" id="position_group">
+     <position yUnit="pixel" uiPreview="false" customize="false" xUnit="pixel" yUnits="pixel" name="tr:Position" x="0" y="0" id="position" availableValues="topleft,topright,top,bottomleft,bottomright,bottom" xUnits="pixel" default="topright" defaultOrientation="horizontal" needOrientation="false"/>
+    </param>
+    <param uiPreview="false" customize="false" name="tr:Display" id="display">
+     <datasource uiPreview="false" customize="false" name="tr:Title to display" id="source" default="currentpanorama"/>
+     <font uiPreview="false" customize="false" name="tr:Font style" size="28" id="font" style="bold" default="Arial"/>
+     <color allowDynamicSource="false" uiPreview="false" customize="false" name="tr:Font color" defaultAlpha="0" id="color" default="#000000" source="customColor" needAlpha="true"/>
+     <bool uiPreview="false" customize="false" name="tr:Drop shadow text" id="hasshadow" default="true"/>
+    </param>
+    <param uiPreview="false" customize="false" name="tr:Behavior" id="behavior">
+     <bool uiPreview="false" customize="false" name="tr:Respond to show/hide controls requests" id="hideonhidecontrols" description="tr:Show/hide this component when the user triggers a show/hide controls request from an other component" default="true"/>
+    </param>
+    <param uiPreview="false" customize="false" conditionalParam="source" id="" conditionalValues="currentgroup">
+     <bool uiPreview="false" customize="false" name="tr:Use groups colors" id="use_group_color" default="false"/>
+    </param>
+   </plugin>
+  </plugins>
+  <author url="" objectId="1">
+   <description/>
+  </author>
+  <tooltipstyle borderwidth="0" fontfamily="Arial" shadowed="false" fontstyle="bold" displayBackground="false" roundedge="0" fontsize="14">
+   <foregroundColor alpha="1" color="#ffffff" source="customColor"/>
+   <backgroundColor alpha="1" color="#aeaeae" source="customColor"/>
+   <borderColor alpha="1" color="#ffffff" source="customColor"/>
+   <shadowColor alpha="1" color="#000000" source="customColor"/>
+  </tooltipstyle>
+  <presetActions>
+   <presetAction type="actionicon" isDefault="True" locked="False" id="user_defaultpoint0" timestamp="0" spotType="point" objectId="0">
+    <description previewFile="../../../../../:Resources/spots/classic/hotspot_neutral.png" name="Default Point Spot Style" description="tr:This is the default preset for point spots"/>
+    <display type="point">
+     <bool uiPreview="false" customize="false" name="Use icon from library" id="fileorlib" default="true"/>
+     <filechooser uiPreview="false" customize="false" filters="images,flash" name="Icon file" conditionalParam="fileorlib" id="icon" allowEmpty="false" default="" allowRemote="true" conditionalValues="false"/>
+     <spoticonchooser uiPreview="false" customize="false" allowSequences="true" name="Icon" conditionalParam="fileorlib" id="iconChooser" default="theme02|tr:Neutral|image" conditionalValues="true"/>
+     <row uiPreview="false" customize="false" conditionalParam="fileorlib" id="rowcolor" conditionalValues="true">
+      <bool uiPreview="false" customize="false" name="Custom color" id="customcolor" default="false"/>
+      <color allowDynamicSource="false" uiPreview="false" customize="false" name="Color" defaultAlpha="1" conditionalParam="customcolor" id="iconcolor" default="#fd8f91" source="customColor" conditionalValues="true" needAlpha="true"/>
+     </row>
+     <size uiPreview="false" customize="false" name="Size" id="size" needKeepRatio="false">
+      <dimension uiPreview="false" customize="false" availableUnits="pixel" name="Width" id="width" minimum="0" maximum="999" currentUnit="pixel" default="0" needAutomatic="false"/>
+      <dimension uiPreview="false" customize="false" availableUnits="pixel" name="Height" id="height" minimum="0" maximum="999" currentUnit="pixel" default="0" needAutomatic="false"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool uiPreview="false" customize="false" name="Change size according to zoom level" id="zoom" default="false"/>
+      <bool uiPreview="false" customize="false" name="Change transparency on over" id="alphaonhover" default="false"/>
+      <bool uiPreview="false" customize="false" name="Scale on over" id="scaleonhover" default="false"/>
+      <number uiPreview="false" customize="false" name="Rotation angle" id="rotationAngle" minimum="0" maximum="360" default="0" suffix=" °"/>
+      <select uiPreview="false" customize="false" name="Anchor position" id="anchor" default="center">
+       <item name="Center" value="center"/>
+       <item name="Bottom" value="bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common" flags="haspermanenttooltip">
+     <bool uiPreview="false" customize="false" name="Pause autorotation on hover" id="pauserotationonhover" default="false"/>
+     <string uiPreview="false" customize="false" name="Tooltip text or placeholder" id="tooltipTemplate" description="Enter a tooltip text which will be assigned to all spots with that style.&#xa;And/or use a placeholder&#xa;- %p for the target panorama or group name&#xa;- %d for the target panorama or group description" default="" needTranslation="true"/>
+     <select uiPreview="false" customize="false" name="Tooltip rule for desktop" id="permanentTooltipDesktop" default="tooltipdesktoponhover">
+      <item name="On hover" value="tooltipdesktoponhover"/>
+      <item name="Permanent" value="tooltipdesktoppermanent"/>
+     </select>
+     <select uiPreview="false" customize="false" name="Tooltip rule for tablet/mobile devices" id="permanentTooltipDevices" default="tooltipdevicesnever">
+      <item name="Never" value="tooltipdevicesnever"/>
+      <item name="Permanent" value="tooltipdevicespermanent"/>
+     </select>
+    </display>
+    <action type="Object" startFov="0" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Load a specific panorama or the first panorama of a specific group." contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="-1" sourceId="-1">
+     <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction type="actionlensflare" isDefault="True" locked="False" id="user_defaultlensflare0" timestamp="0" spotType="lensflare" objectId="0">
+    <description previewFile=":/UI/spotlensflarepreview.png" name="Default Lensflare Style" description="tr:This is the default preset for lensflares"/>
+   </presetAction>
+   <presetAction type="actionrectpicture" isDefault="True" locked="False" id="user_defaultimage0" timestamp="0" spotType="rectpicture" objectId="0">
+    <description previewFile=":/UI/spotpicturepreview.png" name="Default Picture Spot Style" description="tr:This is the default preset for picture hotspots"/>
+    <display type="rectpicture">
+     <select uiPreview="false" customize="false" name="Picture display" id="picturedisplay" default="always">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="On click" value="onclick"/>
+      <item name="Hidden" value="hidden"/>
+     </select>
+     <number uiPreview="false" customize="false" name="Fade in/out duration" conditionalParam="picturedisplay" id="changepicturedelay" minimum="0" maximum="2000" default="0" suffix=" ms" conditionalValues="onhover,onclick"/>
+     <group uiPreview="false" customize="false" name="Maximize picture options" conditionalParam="picturedisplay" id="flyonclickGrp" conditionalValues="always,onhover,hidden">
+      <bool uiPreview="false" customize="false" name="Maximize picture on click" id="flyonclick" default="false"/>
+      <dimension uiPreview="false" customize="false" availableUnits="pixel" name="Maximized width" conditionalParam="flyonclick" id="flyingwidth" minimum="0" maximum="9999" currentUnit="pixel" default="0" needAutomatic="false" conditionalValues="true"/>
+      <dimension uiPreview="false" customize="false" availableUnits="pixel" name="Maximized height" conditionalParam="flyonclick" id="flyingheight" minimum="0" maximum="9999" currentUnit="pixel" default="0" needAutomatic="false" conditionalValues="true"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool uiPreview="false" customize="false" name="Pause autorotation on hover" id="pauserotationonhover" default="false"/>
+     <string uiPreview="false" customize="false" name="Tooltip text or placeholder" id="tooltipTemplate" description="Enter a tooltip text which will be assigned to all spots with that style.&#xa;And/or use a placeholder&#xa;- %p for the target panorama or group name&#xa;- %d for the target panorama or group description" default="" needTranslation="true"/>
+    </display>
+    <action type="" locked="False" name="" category="" id="none" description="" contentTemplate="" depends="" callTemplate="" internal="0"/>
+   </presetAction>
+   <presetAction type="actionpolygon" isDefault="True" locked="False" id="user_defaultpolygon0" timestamp="0" spotType="polygon" objectId="0">
+    <description previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style" description="tr:This is the default preset for polygon hotspots"/>
+    <display type="polygon">
+     <select uiPreview="false" customize="false" name="Polygon display" id="displayedwhen" default="always">
+      <item name="Always" value="always"/>
+      <item name="On hover" value="onhover"/>
+      <item name="Never" value="never"/>
+     </select>
+     <color allowDynamicSource="false" uiPreview="false" customize="false" name="Border color" defaultAlpha="1" id="bordercolor" default="#ffffff" source="customColor" needAlpha="true"/>
+     <dimension uiPreview="false" customize="false" availableUnits="pixel" name="Border width" id="borderwidth" minimum="0" maximum="9999" currentUnit="pixel" default="1" needAutomatic="false"/>
+     <color allowDynamicSource="false" uiPreview="false" customize="false" name="Fill color" defaultAlpha="0.4" id="fillcolor" default="#ffffff" source="customColor" needAlpha="true"/>
+     <group uiPreview="false" customize="false" name="Display options on hover state" conditionalParam="displayedwhen" id="displayedWhenAlwaysGrp" conditionalValues="always">
+      <bool uiPreview="false" customize="false" name="Change display on hover" id="alwayshoverstate" default="false"/>
+      <color allowDynamicSource="false" uiPreview="false" customize="false" name="Border color on hover" defaultAlpha="1" conditionalParam="alwayshoverstate" id="bordercolorhover" default="#ffffff" source="customColor" conditionalValues="true" needAlpha="true"/>
+      <dimension uiPreview="false" customize="false" availableUnits="pixel" name="Border width on hover" conditionalParam="alwayshoverstate" id="borderwidthhover" minimum="0" maximum="9999" currentUnit="pixel" default="4" needAutomatic="false" conditionalValues="true"/>
+      <color allowDynamicSource="false" uiPreview="false" customize="false" name="Fill color on hover" defaultAlpha="0.6" conditionalParam="alwayshoverstate" id="fillcolorhover" default="#ffffff" source="customColor" conditionalValues="true" needAlpha="true"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool uiPreview="false" customize="false" name="Pause autorotation on hover" id="pauserotationonhover" default="false"/>
+     <string uiPreview="false" customize="false" name="Tooltip text or placeholder" id="tooltipTemplate" description="Enter a tooltip text which will be assigned to all spots with that style.&#xa;And/or use a placeholder&#xa;- %p for the target panorama or group name&#xa;- %d for the target panorama or group description" default="" needTranslation="true"/>
+    </display>
+    <action type="Object" startFov="0" locked="False" name="Go to a panorama or a group" category="basic" customTargetView="False" id="object" startPitch="0" description="Load a specific panorama or the first panorama of a specific group." contentTemplate="" startYaw="0" depends="" callTemplate="loadpanoramaactioncall.tmpl" internal="0" targetId="-1" sourceId="-1">
+     <select uiPreview="false" customize="true" name="Source transition" id="sourcetransition" default="none">
+      <item name="None" value="none"/>
+      <item name="Look to the spot" value="looktospot"/>
+      <item name="Zoom in on the spot" value="zoominonspot"/>
+      <item name="Zoom out" value="zoomoutonpanorama"/>
+     </select>
+     <select uiPreview="false" customize="true" name="Target transition" id="targettransition" default="loadspotview">
+      <item name="None" value="none"/>
+      <item name="Custom view to panorama view" value="spotviewtopanoview"/>
+      <item name="Load custom view" value="loadspotview"/>
+      <item name="Load panorama view" value="loadpanoview"/>
+      <item name="Panorama view to custom view" value="panoviewtospotview"/>
+     </select>
+    </action>
+   </presetAction>
+  </presetActions>
+ </project>
+ <filesCache/>
+</panotour>
